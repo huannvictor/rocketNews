@@ -1,0 +1,105 @@
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+body {
+  margin: 0;
+  color: var(--text-color);
+  background: url('assets/read_news.jpg') no-repeat top right;
+  background-size: 1175px;
+}
+
+#background {
+  background-color: var(--body-bg-color);
+  width: 720px;
+  height: 100vh;
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+header img {
+  width: 389px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+main {
+  margin-left: 30px;
+}
+
+#text {
+  margin-top: 92px;
+}
+
+div h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px;
+  color: var(--title-color);
+}
+
+div p {
+  font-family: 'Spartan', sans-serif;
+  font-size: 14px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+form fieldset {
+  border: none;
+  padding: 0;
+}
+
+form fieldset legend {
+  font-family: 'Spartan', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--form-color);
+  border: none;
+}
+
+#email {
+  margin-top: 22px;
+  display: flex;
+}
+
+form fieldset input {
+  width: 798px;
+  border: none;
+  border-left: 5px solid #04d361;
+}
+
+form fieldset input::placeholder {
+  padding-left: 15px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  color: #6a6a6a;
+}
+
+form fieldset button {
+  width: 48px;
+  height: 48px;
+  background-color: var(--bg-button-color);
+  border: none;
+}
+
+div a {
+  text-decoration: none;
+  color: var(--bg-button-color);
+  font-family: 'Spartan', sans-serif;
+  font-size: 14px;
+}
+
+#link {
+  margin-top: 50px;
+}
+
+#link a {
+  display: flex;
+  align-items: center;
+}
