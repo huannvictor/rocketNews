@@ -22,8 +22,8 @@ body {
   z-index: -1;
 }
 
-header img {
-  width: 389px;
+header img { 
+  height: 100vh;
   margin-top: 50px;
   margin-left: 30px;
 }
