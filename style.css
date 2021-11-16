@@ -10,7 +10,7 @@ body {
   margin: 0;
   color: var(--text-color);
   background: url('assets/read_news.jpg') no-repeat top right;
-  background-size: 1175px;
+  background-size: auto 100vh;
 }
 
 #background {
@@ -22,8 +22,8 @@ body {
   z-index: -1;
 }
 
-header img { 
-  height: 100vh;
+header img {
+  width: 389px;
   margin-top: 50px;
   margin-left: 30px;
 }
